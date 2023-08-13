@@ -22,7 +22,7 @@ const ProModal = () => {
 
   useEffect(() => {
     setIsMounted(true);
-  });
+  }, []);
 
   const onSubscribe = async () => {
     try {

@@ -18,7 +18,7 @@ const ImageUpload = ({ value, onChange, disabled }: ImageUPloadProps) => {
 
   useEffect(() => {
     setIsMounted(true);
-  });
+  }, []);
 
   if (!isMounted) {
     return null;
